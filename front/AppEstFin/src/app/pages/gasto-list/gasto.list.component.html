@@ -1,0 +1,30 @@
+<h2>Gastos</h2>
+
+<table>
+  <tr>
+    <th>Descripción</th>
+    <th>Monto</th>
+    <th></th>
+  </tr>
+
+  <tr *ngFor="let gasto of gastos">
+
+    <td>
+      {{ item.descripcion }}
+    </td>
+
+    <td>
+      {{ gasto.monto }}
+    </td>
+
+    <td>
+      <button
+        (click)="verDetalle(gasto.id)">
+        Ver
+      </button>
+
+    </td>
+
+  </tr>
+</table>
+ 

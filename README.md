@@ -16,7 +16,7 @@ No es necesario corregir todos los problemas.
 Se evaluará:
 
 
-- Capacidad de análisis
+- Capacidad de análisis e identificacion de la mayor cantidad de posibles problemas.
 
 - Diseño de APIs REST
 
@@ -28,6 +28,44 @@ Se evaluará:
 
 - Uso de Git
 
+## Backend
+
+
+Revise:
+
+
+- Diseño REST
+
+- Verbos HTTP
+
+- DTOs
+
+- Validaciones
+
+- Manejo de errores
+
+- Servicios
+
+- Repositorios
+
+
+## Frontend
+
+
+Revise:
+
+
+- Routing
+
+- Navegación
+
+- Servicios HTTP
+
+- Tipado
+
+- Templates
+
+- Manejo de errores
 
 ## Entrega
 
@@ -40,7 +78,7 @@ Se evaluará:
 
 4. Documentar:
 
-   - Problemas identificados.
+   - Problemas/Hallazgos detectados.
 
    - Soluciones implementadas.
 
