@@ -13,8 +13,8 @@ export const routes: Routes = [
     component: GastoListComponent
   },
   {
-    path: 'gasto',
+    // Se agrega :id para recibir el ID del gasto.
+    path: 'gasto/:id',
     component: GastoDetailComponent
   }
 ];
- 
