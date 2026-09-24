@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Descripción</th>
+    <th>Descripcion</th>
     <th>Monto</th>
     <th></th>
   </tr>
@@ -10,7 +10,8 @@
   <tr *ngFor="let gasto of gastos">
 
     <td>
-      {{ item.descripcion }}
+      <!-- Se corrige item por gasto -->
+      {{ gasto.descripcion }}
     </td>
 
     <td>
@@ -22,9 +23,7 @@
         (click)="verDetalle(gasto.id)">
         Ver
       </button>
-
     </td>
 
   </tr>
 </table>
- 
