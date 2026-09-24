@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GastoService } from '../../servicios/gasto.service';
 
@@ -7,9 +7,9 @@ import { GastoService } from '../../servicios/gasto.service';
   standalone: true,
   templateUrl: './gasto-detail.component.html'
 })
+export class GastoDetailComponent implements OnInit {
 
-export class GastoDetailComponent {
-
+  // Gasto que se mostrara en la vista.
   gasto: any;
 
   constructor(
@@ -17,10 +17,11 @@ export class GastoDetailComponent {
     private gastoService: GastoService
   ) {}
 
-
+  // Se ejecuta al iniciar el componente.
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
+
+    // Muestra el ID recibido en la consola.
     console.log(id);
   }
 }
- 
