@@ -1,4 +1,8 @@
-export interface EjecutaAccionDTO {
+export interface EjecutaAccionDTO
+{
+    // Indica si la operacion fue valida.
     valida: boolean;
-    mensaje:string;
+
+    // Mensaje de respuesta.
+    mensaje: string;
 }
